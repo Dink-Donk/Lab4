@@ -136,5 +136,22 @@ namespace SkipListTests
                 Assert.True(lib.Contains(nums[i]));
             }
         }
+
+        [Fact]
+        public void RemoveDecreasesCount()
+        {
+            var lib = new SkipList<int, int>();
+            var nums = new List<int>(new[] { 44, 22, 1, 56, 3, 90, 31, 15, 26 });
+            int n = nums.Count;
+            for (int i = 0; i < n; i++)
+            {
+                lib.Add(nums[i], i);
+            }
+            for (int i = 0; i < n; i++)
+            {
+                lib.Remove(nums[i]);
+            }
+            Assert.Equal(0, lib.Count);
+        }
     }
 }

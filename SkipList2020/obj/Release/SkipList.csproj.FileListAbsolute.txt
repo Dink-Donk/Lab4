@@ -4,3 +4,9 @@ C:\Users\Vladimir\source\repos\MP\Sem6\SkipListForStudents\SkipList2020\obj\Rele
 C:\Users\Vladimir\source\repos\MP\Sem6\SkipListForStudents\SkipList2020\obj\Release\SkipList.csproj.CoreCompileInputs.cache
 C:\Users\Vladimir\source\repos\MP\Sem6\SkipListForStudents\SkipList2020\obj\Release\SkipList2020.dll
 C:\Users\Vladimir\source\repos\MP\Sem6\SkipListForStudents\SkipList2020\obj\Release\SkipList2020.pdb
+C:\Users\Vladimir\source\repos\Lab4\SkipList2020\bin\Release\SkipList2020.dll
+C:\Users\Vladimir\source\repos\Lab4\SkipList2020\bin\Release\SkipList2020.pdb
+C:\Users\Vladimir\source\repos\Lab4\SkipList2020\obj\Release\SkipList.csprojAssemblyReference.cache
+C:\Users\Vladimir\source\repos\Lab4\SkipList2020\obj\Release\SkipList.csproj.CoreCompileInputs.cache
+C:\Users\Vladimir\source\repos\Lab4\SkipList2020\obj\Release\SkipList2020.dll
+C:\Users\Vladimir\source\repos\Lab4\SkipList2020\obj\Release\SkipList2020.pdb

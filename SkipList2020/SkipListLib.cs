@@ -4,9 +4,9 @@ using System.Collections.Generic;
 
 namespace SkipList2020
 {
-    public class SkipList<TKey,TValue>:
-        IEnumerable<KeyValuePair<TKey,TValue>> 
-        where TKey :IComparable<TKey>
+    public class SkipList<TKey, TValue> :
+        IEnumerable<KeyValuePair<TKey, TValue>>
+        where TKey : IComparable<TKey>
     {
         Node<TKey, TValue>[] _head;
         readonly double _probability;
@@ -14,7 +14,7 @@ namespace SkipList2020
         int _curLevel;
         Random _rd;
         public int Count { get; private set; }
-        public SkipList(int maxLevel = 10, double p= 0.5)
+        public SkipList(int maxLevel = 10, double p = 0.5)
         {
             _maxLevel = maxLevel;
             _probability = p;
@@ -31,14 +31,14 @@ namespace SkipList2020
             _rd = new Random(DateTime.Now.Millisecond);
         }
 
-        public void Add( TKey key, TValue value)
+        public void Add(TKey key, TValue value)
         {
             var prevNode = new Node<TKey, TValue>[_maxLevel];
             var currentNode = _head[_curLevel];
-            for (int i= _curLevel; i>=0; i--)
+            for (int i = _curLevel; i >= 0; i--)
             {
-                while(currentNode.Right!=null && 
-                    currentNode.Right.Key.CompareTo(key)<0)
+                while (currentNode.Right != null &&
+                    currentNode.Right.Key.CompareTo(key) < 0)
                 {
                     currentNode = currentNode.Right;
                 }
@@ -48,18 +48,18 @@ namespace SkipList2020
                 currentNode = currentNode.Down;
             }
             int level = 0;
-            while (_rd.NextDouble()< _probability && level<_maxLevel-1)
+            while (_rd.NextDouble() < _probability && level < _maxLevel - 1)
             {
                 level++;
             }
-            while (_curLevel<level)
+            while (_curLevel < level)
             {
                 _curLevel++;
                 prevNode[_curLevel] = _head[_curLevel];
             }
-            for(int i=0; i<=level; i++)
+            for (int i = 0; i <= level; i++)
             {
-                var node = new Node<TKey, TValue>(key, value) {Right = prevNode[i].Right};
+                var node = new Node<TKey, TValue>(key, value) { Right = prevNode[i].Right };
                 prevNode[i].Right = node;
                 if (i == 0) continue;
                 node.Down = prevNode[i - 1].Right;
@@ -72,65 +72,43 @@ namespace SkipList2020
         {
             var currentNode = _head[_curLevel];
             var currLevelTemp = _curLevel;
-            while(currLevelTemp>=0)
+            while (currLevelTemp >= 0)
             {
                 while (currentNode.Right != null &&
                     currentNode.Right.Key.CompareTo(key) < 0)
                 {
                     currentNode = currentNode.Right;
                 }
-                if (currentNode.Right!=null &&
+                if (currentNode.Right != null &&
                     currentNode.Right.Key.CompareTo(key) == 0)
                     return true;
                 currentNode = currentNode.Down;
-                currLevelTemp--;    
+                currLevelTemp--;
             }
             return false;
         }
 
-        //public void Remove(TKey key)
-        //{
-        //    int currLevelTemp = 0;
-        //    var prevNode = new Node<TKey, TValue>();
-        //    var currentNode = _head[0];
-        //    while (currLevelTemp <=_curLevel)
-        //    {
-        //        while (currentNode.Right != null &&
-        //            currentNode.Right.Key.CompareTo(key) < 0)
-        //        {
-        //            prevNode = currentNode;
-        //            currentNode = currentNode.Right;
-        //        }
-        //        var nodeAbove = currentNode.Up;
-        //        while(nodeAbove!=null)
-        //        {
-        //            prevNode.Right = currentNode.Right;
-        //            currentNode = nodeAbove;
-        //        }    
-        //    }
-        //}
-
         public bool Remove(TKey key)
         {
-            var currentNode = _head[_curLevel];
+            var current = _head[_curLevel];
             bool flag = false;
             for (int i = _curLevel; i >= 0; i--)
             {
-                if ((currentNode.Right != null && currentNode.Right.Key.CompareTo(key) == 0))
+                while (current.Right != null && current.Right.Key.CompareTo(key) < 0)
+                {
+                    current = current.Right;
+                }
+                if (current.Right == null)
+                {
+                    current = current.Down;
+                    continue;
+                }
+                if ((current.Right != null && current.Right.Key.CompareTo(key) == 0))
                 {
                     flag = true;
                 }
-                while (currentNode.Right != null && currentNode.Right.Key.CompareTo(key) < 0)
-                {
-                    currentNode = currentNode.Right;
-                }
-
-                if (currentNode.Right == null)
-                {
-                    continue;
-                }
-                currentNode.Right = currentNode.Right.Right;
-                currentNode = currentNode.Down;
+                current.Right = current.Right.Right;
+                current = current.Down;
             }
             if (flag)
             {

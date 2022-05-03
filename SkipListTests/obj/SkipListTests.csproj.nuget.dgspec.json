@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vladimir\\source\\repos\\MP\\Sem6\\SkipListForStudents\\SkipListTests\\SkipListTests.csproj": {}
+    "C:\\Users\\Vladimir\\source\\repos\\Lab4\\SkipListTests\\SkipListTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vladimir\\source\\repos\\MP\\Sem6\\SkipListForStudents\\SkipListTests\\SkipListTests.csproj": {
+    "C:\\Users\\Vladimir\\source\\repos\\Lab4\\SkipListTests\\SkipListTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vladimir\\source\\repos\\MP\\Sem6\\SkipListForStudents\\SkipListTests\\SkipListTests.csproj",
+        "projectUniqueName": "C:\\Users\\Vladimir\\source\\repos\\Lab4\\SkipListTests\\SkipListTests.csproj",
         "projectName": "SkipListTests",
-        "projectPath": "C:\\Users\\Vladimir\\source\\repos\\MP\\Sem6\\SkipListForStudents\\SkipListTests\\SkipListTests.csproj",
+        "projectPath": "C:\\Users\\Vladimir\\source\\repos\\Lab4\\SkipListTests\\SkipListTests.csproj",
         "packagesPath": "C:\\Users\\Vladimir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vladimir\\source\\repos\\MP\\Sem6\\SkipListForStudents\\SkipListTests\\obj\\",
+        "outputPath": "C:\\Users\\Vladimir\\source\\repos\\Lab4\\SkipListTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

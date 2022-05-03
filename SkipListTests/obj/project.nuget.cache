@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jGYAERHICpePWjI8e6xcBF7ZxB9QHE8nzuVfiVVvaPKYqze7X3lzWFIRKn0cjLVYQ0TovB6bzWMNE4FFcyVawg==",
+  "dgSpecHash": "jV6URP+MF4vVqKmINxWx2m7pWve0FCFtLS28pjPcThP/wL/KQrSCkRa/DJBx7zkb4iAt/8Gmfr1s5KQMagQ7WQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vladimir\\source\\repos\\MP\\Sem6\\SkipListForStudents\\SkipListTests\\SkipListTests.csproj",
+  "projectFilePath": "C:\\Users\\Vladimir\\source\\repos\\Lab4\\SkipListTests\\SkipListTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vladimir\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\Vladimir\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
