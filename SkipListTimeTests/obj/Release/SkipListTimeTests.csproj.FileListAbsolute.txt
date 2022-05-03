@@ -1,0 +1,10 @@
+C:\Users\Vladimir\source\repos\MP\Sem6\SkipListForStudents\SkipListTimeTests\bin\Release\SkipListTimeTests.exe.config
+C:\Users\Vladimir\source\repos\MP\Sem6\SkipListForStudents\SkipListTimeTests\bin\Release\SkipListTimeTests.exe
+C:\Users\Vladimir\source\repos\MP\Sem6\SkipListForStudents\SkipListTimeTests\bin\Release\SkipListTimeTests.pdb
+C:\Users\Vladimir\source\repos\MP\Sem6\SkipListForStudents\SkipListTimeTests\bin\Release\SkipList2020.dll
+C:\Users\Vladimir\source\repos\MP\Sem6\SkipListForStudents\SkipListTimeTests\bin\Release\SkipList2020.pdb
+C:\Users\Vladimir\source\repos\MP\Sem6\SkipListForStudents\SkipListTimeTests\obj\Release\SkipListTimeTests.csprojAssemblyReference.cache
+C:\Users\Vladimir\source\repos\MP\Sem6\SkipListForStudents\SkipListTimeTests\obj\Release\SkipListTimeTests.csproj.CoreCompileInputs.cache
+C:\Users\Vladimir\source\repos\MP\Sem6\SkipListForStudents\SkipListTimeTests\obj\Release\SkipListTimeTests.csproj.CopyComplete
+C:\Users\Vladimir\source\repos\MP\Sem6\SkipListForStudents\SkipListTimeTests\obj\Release\SkipListTimeTests.exe
+C:\Users\Vladimir\source\repos\MP\Sem6\SkipListForStudents\SkipListTimeTests\obj\Release\SkipListTimeTests.pdb

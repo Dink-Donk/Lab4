@@ -1,0 +1,10 @@
+C:\Users\Vladimir\source\repos\MP\Sem6\SkipListForStudents\SkipListTimeTests\bin\Debug\SkipListTimeTests.exe.config
+C:\Users\Vladimir\source\repos\MP\Sem6\SkipListForStudents\SkipListTimeTests\bin\Debug\SkipListTimeTests.exe
+C:\Users\Vladimir\source\repos\MP\Sem6\SkipListForStudents\SkipListTimeTests\bin\Debug\SkipListTimeTests.pdb
+C:\Users\Vladimir\source\repos\MP\Sem6\SkipListForStudents\SkipListTimeTests\bin\Debug\SkipList2020.dll
+C:\Users\Vladimir\source\repos\MP\Sem6\SkipListForStudents\SkipListTimeTests\bin\Debug\SkipList2020.pdb
+C:\Users\Vladimir\source\repos\MP\Sem6\SkipListForStudents\SkipListTimeTests\obj\Debug\SkipListTimeTests.csprojAssemblyReference.cache
+C:\Users\Vladimir\source\repos\MP\Sem6\SkipListForStudents\SkipListTimeTests\obj\Debug\SkipListTimeTests.csproj.CoreCompileInputs.cache
+C:\Users\Vladimir\source\repos\MP\Sem6\SkipListForStudents\SkipListTimeTests\obj\Debug\SkipListTimeTests.csproj.CopyComplete
+C:\Users\Vladimir\source\repos\MP\Sem6\SkipListForStudents\SkipListTimeTests\obj\Debug\SkipListTimeTests.exe
+C:\Users\Vladimir\source\repos\MP\Sem6\SkipListForStudents\SkipListTimeTests\obj\Debug\SkipListTimeTests.pdb
