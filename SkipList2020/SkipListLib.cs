@@ -71,8 +71,7 @@ namespace SkipList2020
         public bool Contains(TKey key)
         {
             var currentNode = _head[_curLevel];
-            var currLevelTemp = _curLevel;
-            while (currLevelTemp >= 0)
+            while (currentNode!=null)
             {
                 while (currentNode.Right != null &&
                     currentNode.Right.Key.CompareTo(key) < 0)
@@ -83,7 +82,6 @@ namespace SkipList2020
                     currentNode.Right.Key.CompareTo(key) == 0)
                     return true;
                 currentNode = currentNode.Down;
-                currLevelTemp--;
             }
             return false;
         }
